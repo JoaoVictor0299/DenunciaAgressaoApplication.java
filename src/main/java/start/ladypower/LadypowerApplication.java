@@ -1,13 +1,13 @@
-package br.com.LadyPower;
+package start.ladypower;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DenunciaAgressaoApplication {
+public class LadypowerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DenunciaAgressaoApplication.class, args);
+		SpringApplication.run(LadypowerApplication.class, args);
 	}
 
 }
