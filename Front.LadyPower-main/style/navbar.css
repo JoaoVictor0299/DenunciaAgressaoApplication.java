@@ -1,0 +1,83 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #202020;
+    background-color: #ffcdee;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.nav-itens>li>a {
+    padding-left: 20px;
+    color: #202020;
+    text-decoration: none;
+}
+
+
+.search-box {
+    background: #fa95e4;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #f0f5fb;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
+    transition: .5s;
+    
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 6px;
+}
+
+.olho_e_lupa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.olho_e_lupa i {
+    font-size: 1.8rem;
+    padding-left: 45px;
+    color: #202020;
+}
+
+
+.logo-lady {
+    background-color: transparent;
+    position:absolute;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.nome {
+    color: rgb(240, 11, 183);
+    justify-content: space-evenly;
+    display: flex;
+    padding: 45px
+
+}
+
